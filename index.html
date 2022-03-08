@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ohmyfood</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.3b455abd.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <object
+        class="loading__svg"
+        data="./assets/salad.svg"
+        type="image/svg+xml"
+      ></object>
+    </div>
+    <header class="siteheader">
+      <a class="back-arrow back-arrow--hidden" href="./index.html"
+        ><span class="back-arrow__icon fa-solid fa-arrow-left"></span
+      ></a>
+      <a class="siteheader__logo-anchor" href="./index.html"
+        ><h1 class="siteheader__logo">Ohmyfood</h1></a
+      >
+    </header>
+    <div class="location">
+      <span class="location__value">Paris, Belleville</span>
+    </div>
+    <section class="hero">
+      <h2 class="hero__title">Réservez le menu qui vous convient</h2>
+      <p class="hero__content">
+        Découvrez des restaurants d'exception, séléctionnés par nos soins.
+      </p>
+      <button class="btn" type="button">Explorer nos restaurants</button>
+    </section>
+    <section class="steps">
+      <h2 class="steps__title">Fonctionnement</h2>
+      <ol class="steps__list">
+        <li class="steps__item">
+          <span class="steps__icon fa-solid fa-mobile-screen-button"></span
+          ><span class="steps__instruction">Choisissez un restaurant</span>
+        </li>
+        <li class="steps__item">
+          <span class="steps__icon fa-solid fa-list"></span
+          ><span class="steps__instruction">Composez votre menu</span>
+        </li>
+        <li class="steps__item">
+          <span class="steps__icon fa-solid fa-store"></span
+          ><span class="steps__instruction">Dégustez au restaurant</span>
+        </li>
+      </ol>
+    </section>
+    <main class="restaurants">
+      <h2 class="restaurants__title">Restaurants</h2>
+      <ul class="restaurants__list">
+        <li class="card card--new">
+          <a href="./restaurants/palette_du_gout.html">
+            <figure class="card__figure">
+              <img
+                class="card__image"
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                srcset="
+                  ./assets/palette_du_gout_w_250.f6299658.jpg   250w,
+                  ./assets/palette_du_gout_w_563.c1933529.jpg   563w,
+                  ./assets/palette_du_gout_w_772.5eb49c0d.jpg   772w,
+                  ./assets/palette_du_gout_w_971.5c241c64.jpg   971w,
+                  ./assets/palette_du_gout_w_1162.9f1b4f3c.jpg 1162w,
+                  ./assets/palette_du_gout_w_1200.4f4eb32a.jpg 1200w
+                "
+                src="./assets/palette_du_gout_w_1200.4f4eb32a.jpg"
+                alt="assiette saumon fumé et saint-jacques"
+              />
+              <figcaption class="card__figcaption">
+                <div class="card__figcaption-container">
+                  <h3 class="card__name">La palette du gôut</h3>
+                  <span class="card__location">Ménilmontant</span>
+                </div>
+                <object
+                  class="like-btn like-btn--shift-down"
+                  data="./assets/heart.svg"
+                  type="image/svg+xml"
+                ></object>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="card card--new">
+          <a href="./restaurants/note_enchantee.html">
+            <figure class="card__figure">
+              <img
+                class="card__image"
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                srcset="
+                  ./assets/note_enchantee_w_250.2c51ecd6.jpg   250w,
+                  ./assets/note_enchantee_w_477.11a63627.jpg   477w,
+                  ./assets/note_enchantee_w_638.551dd02b.jpg   638w,
+                  ./assets/note_enchantee_w_796.d07b72e5.jpg   796w,
+                  ./assets/note_enchantee_w_926.302df4da.jpg   926w,
+                  ./assets/note_enchantee_w_1037.50474ba7.jpg 1037w,
+                  ./assets/note_enchantee_w_1153.edbd3ced.jpg 1153w,
+                  ./assets/note_enchantee_w_1197.9f7e7689.jpg 1197w,
+                  ./assets/note_enchantee_w_1200.9fc712ae.jpg 1200w
+                "
+                src="./assets/note_enchantee_w_1200.9fc712ae.jpg"
+                alt="assiette calamar, poulpe et sauce tomate"
+              />
+              <figcaption class="card__figcaption">
+                <div class="card__figcaption-container">
+                  <h3 class="card__name">La note enchantée</h3>
+                  <span class="card__location">Charonne</span>
+                </div>
+                <object
+                  class="like-btn like-btn--shift-down"
+                  data="./assets/heart.svg"
+                  type="image/svg+xml"
+                ></object>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="card">
+          <a href="./restaurants/a_la_francaise.html">
+            <figure class="card__figure">
+              <img
+                class="card__image"
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                srcset="
+                  ./assets/a_la_francaise_w_250.fb7d84cd.jpg   250w,
+                  ./assets/a_la_francaise_w_630.2f028d10.jpg   630w,
+                  ./assets/a_la_francaise_w_913.48e316b8.jpg   913w,
+                  ./assets/a_la_francaise_w_1149.2d4abafd.jpg 1149w,
+                  ./assets/a_la_francaise_w_1200.20f22475.jpg 1200w
+                "
+                src="./assets/a_la_francaise_w_1200.20f22475.jpg"
+                alt="assiette oeuf benedicte"
+              />
+              <figcaption class="card__figcaption">
+                <div class="card__figcaption-container">
+                  <h3 class="card__name">À la française</h3>
+                  <span class="card__location">Cité Rouge</span>
+                </div>
+                <object
+                  class="like-btn like-btn--shift-down"
+                  data="./assets/heart.svg"
+                  type="image/svg+xml"
+                ></object>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+        <li class="card">
+          <a href="./restaurants/delice_des_sens.html">
+            <figure class="card__figure">
+              <img
+                class="card__image"
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                srcset="
+                  ./assets/delice_des_sens_w_250.34aa2e6f.jpg   250w,
+                  ./assets/delice_des_sens_w_562.c5fdc535.jpg   562w,
+                  ./assets/delice_des_sens_w_801.4674087e.jpg   801w,
+                  ./assets/delice_des_sens_w_996.dc1e436f.jpg   996w,
+                  ./assets/delice_des_sens_w_1193.0d4cf9e2.jpg 1193w,
+                  ./assets/delice_des_sens_w_1200.72268df3.jpg 1200w
+                "
+                src="./assets/delice_des_sens_w_1200.72268df3.jpg"
+                alt="assiette de poisson"
+              />
+              <figcaption class="card__figcaption">
+                <div class="card__figcaption-container">
+                  <h3 class="card__name">Le délice des sens</h3>
+                  <span class="card__location">Folie-Méricourt</span>
+                </div>
+                <object
+                  class="like-btn like-btn--shift-down"
+                  data="./assets/heart.svg"
+                  type="image/svg+xml"
+                ></object>
+              </figcaption>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <h4 class="footer__title">ohmyfood</h4>
+      <ul class="footer__list">
+        <li>
+          <a class="footer__link" href="#">
+            <span class="footer__icon fa-solid fa-utensils"></span>Proposer un
+            restaurant
+          </a>
+        </li>
+        <li>
+          <a class="footer__link" href="#">
+            <span class="footer__icon fa-solid fa-handshake-angle"></span
+            >Devenir partenaire
+          </a>
+        </li>
+        <li><a class="footer__link" href="#">Mentions légales</a></li>
+        <li><a class="footer__link" href="mailto:#">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
